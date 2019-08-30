@@ -151,11 +151,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Fantasmas.cpp" />
     <ClCompile Include="Laberinto.cpp" />
     <ClCompile Include="PacMan.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DirectionMovement.h" />
+    <ClInclude Include="Fantasmas.h" />
     <ClInclude Include="Laberinto.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
